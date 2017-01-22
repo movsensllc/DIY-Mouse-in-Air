@@ -63,8 +63,8 @@ float euler[3];         // [psi, theta, phi]    Euler angle container
 float ypr[3];           // [yaw, pitch, roll]   yaw/pitch/roll container and gravity vector
 float yaw, pitch, roll;
 
-int left_button_pin = 8; // Left button
-int right_button_pin = 7; // right button
+int left_button_pin = 9; // Left button
+int right_button_pin = 10; // right button
 int leftClickFlag = 0;
 const int sensitivity = 30;
 float vertZero, horzZero;
